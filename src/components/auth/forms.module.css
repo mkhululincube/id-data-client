@@ -1,0 +1,72 @@
+.loginContainer {
+  background-color: #f6f6f6;  
+  height: 100vh;
+  overflow: hidden;
+}
+@media (max-width:700px) {
+    .loginContainer {
+        background-color: #fff;  
+    }   
+    .loginForm {
+        margin: 10% 6% 6% 6%;
+
+    }  
+
+}
+@media (min-width:700px) {
+
+.loginForm {
+    margin-top: 10%;
+    padding: 3% 3% 5% 3%;background-color: #fff;
+    border: 1px solid rgb(131, 129, 129);
+    box-shadow: 2px 4px 2px 5px #a7a2a2;
+    border-radius: 25px;
+}
+}
+.formBtn {
+border-radius: 5px;
+width: 100%;
+background-color: rgb(7,106,177);
+height: 50px;
+color: #fff;
+}
+.formLabel {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 9;
+    margin-top: -9px;    
+    margin-left: 24px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #333
+}
+
+.formText {
+    border-radius: 5px;
+    height:50px;
+    padding-left: 30px;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+.formText:focus {
+    height: 50px;
+    box-shadow: 0px 0px 0 #bcd5fc;
+}
+.formLogo {
+    width:100px;
+    text-align:center;
+    margin-bottom:35px;
+    margin-left:35%  
+}
+.formFooter {
+    padding: 15px 0 0 0px
+}
+
+.formHeader {
+position: absolute;
+text-align: center;
+margin-top: -70px;
+font-size: 24px;
+ }

@@ -1,0 +1,193 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1300px;
+    }
+  }
+
+.button {
+    border-radius: 0;
+}
+.product {
+    margin-top: 15px;
+}
+.greyBg {
+    background-color: #f6f6f6;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.filterBar {
+    padding: 9px;
+    text-align: left;
+}
+ 
+
+
+.rec-arrow {
+    border: 3px solid #f00 !important
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.mt15 {
+    margin-top: 15px;
+}
+
+
+.topBarDropdown {
+	margin: 32px 0;
+    background: white;
+    box-shadow: 2px 5px 7px #e9e6e6;
+	width: 150px;
+	position: absolute;
+	right:90px;
+	z-index: 99999999;
+	border-radius: 3px;
+	padding: 20px;
+  }
+
+
+  .roundButton {
+	background: #0E5FBD;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+	border-radius: 0px;
+	font-size: 11px;
+    margin: 0px 0 0px 0;
+    border-radius: 15px;
+  }
+
+
+
+.topLogo {
+position: absolute;
+left: 45px;
+width: 100px;
+top:5px;
+}
+.topLogoBorder {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.loadingContainer {
+    height: 300px;
+    padding: 10px;
+}
+.loading {
+    animation-duration: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-name: wave;
+   animation-timing-function: linear;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: wave;
+    -webkit-animation-timing-function: linear;
+     -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: wave;
+    -moz-animation-timing-function: linear;
+    background: #dddddd;
+    background-image: -webkit-gradient(linear,  left center,  right center,  from(#dddddd),  color-stop(.2,  #f5f5f5),  color-stop(.4,  #e5e5e5),  to(#dddddd));
+    background-image: -webkit-linear-gradient(left,  #dddddd 0%,  #f5f5f5 20%,  #e5e5e5 40%,  #dddddd 100%);
+  background-image: -moz-gradient(linear,  left center,  right center,  from(#dddddd),  color-stop(.2,  #f5f5f5),  color-stop(.4,  #e5e5e5),  to(#dddddd));
+    background-image: -moz-linear-gradient(left,  #dddddd 0%,  #f5f5f5 20%, #e5e5e5 40%, #dddddd 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    height: 104px;
+    position: relative;
+}
+.reverse-direction .loading {
+    -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+}
+.loading div {
+    background: #fff;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+div.shape1 {
+    height: 305px;
+    left: 100px;
+    right: auto;
+    top: 0;
+    width: 10px;
+}
+@-webkit-keyframes wave {
+    0% {
+background-position: -468px 0;
+}
+100% {
+background-position: 468px 0;
+}
+}
+@-moz-keyframes wave {
+    0% {
+background-position: -468px 0;
+}
+100% {
+background-position: 468px 0;
+}
+}
+
+.searchBar {
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.footerHeading {
+    font-size: 17px;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bold
+}
+
+.blueOutLinedButton {
+  border: 1px solid #0E5FBD;
+  color: #0E5FBD;
+  border-radius: 0px;
+}
+
+
+.button {
+	background: #003644;
+	color: white;
+	text-align: center;
+	padding: 7px;
+	text-decoration: none;
+	display: block;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+  .button:hover {
+    background: #fff;
+    border: 1px solid #003644;
+    color:#003644
+  }

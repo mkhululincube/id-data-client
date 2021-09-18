@@ -1,0 +1,97 @@
+
+.logoBar {
+	padding: 20px 0 20px 0;
+	background-color: #f6f6f6;
+}
+
+.topBar {
+    border-bottom: 1px solid transparent;
+    font-size: 12px;
+    padding: 0!important;
+    height: 35px;
+	margin: 0!important;
+}
+
+.ulReset {
+    padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+	list-style: none;
+}
+
+a:hover, a:visited, a:link, a:active
+ {
+    text-decoration: none;
+}
+
+
+.logoBarLogo {
+height: 50px;
+margin-left: 0px;
+cursor: pointer;
+}
+
+.lighterText {
+	color: #ABB0BE;
+}
+  
+  .mainColorText {
+	color: #0079c1;
+  }
+  
+
+  .nav {
+	padding: 10px 0 30px 0;
+	color:#fff;
+	box-shadow: 2px 4px 3px 4px #f6f6f6;
+    background-color:#0079c1;
+    border-bottom: 1px solid transparent;
+	font-size: 12px;
+  }
+  .nav .navbarLeft {
+	float: left;
+  }
+  .nav .navbarRight {
+	float: right;
+  }
+  .nav ul li {
+	display: inline;
+	padding-right: 20px;
+  }
+  .nav ul li a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  .button {
+	background: #78a22f;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+	border-radius: 3px;
+	font-size: 16px;
+	margin: 25px 0 15px 0;
+  }
+  .button:hover {
+    background: #fff;
+    border: 1px solid #78a22f;
+    color:#78a22f
+  }
+
+  .menuButton {
+	background: #78a22f;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+	border-radius: 3px;
+	font-size: 16px;
+	margin: 10px 0 15px 0;
+  }
+  .mousePointer {
+	  cursor: pointer;
+  }
+   
