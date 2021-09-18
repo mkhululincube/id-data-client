@@ -1,4 +1,4 @@
-## Citizen Dapp -  Powered by Ethereum
+## Dapp -  Powered by Ethereum
 
 Demo Application link: (username: admin password: admin ): https://id-data-client.herokuapp.com/
 
@@ -252,14 +252,12 @@ Heroku is linked to application codebase on github repo https://github.com/mkhul
 
     docker pull mkhululincube/id-data
 
-![alt text](https://user-images.githubusercontent.com/16665636/98450968-ed7b8300-215a-11eb-8621-39d14288c428.png)
-
+ 
 ## List images to see if the image is downloaded
 
     docker images
 
-![alt text](https://user-images.githubusercontent.com/16665636/98450997-4814df00-215b-11eb-8761-24c99e007785.png)
-
+ 
 ## Spin up the image to create a container and map the port
 
     docker run --name id-data -p 4680:3000 -d mkhululi/id-data
@@ -268,8 +266,7 @@ Heroku is linked to application codebase on github repo https://github.com/mkhul
 
     docker ps
     
-![alt text](https://user-images.githubusercontent.com/16665636/98451128-6e874a00-215c-11eb-944a-7b2b43b6ba7a.png)
-    
+     
 ## Get docker engine ip
 
     docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' imageNameOrID
