@@ -1,4 +1,4 @@
-## Citizen Dapp -  Powered by Ethereum
+## Dapp -  Powered by Ethereum
 
 Demo Application link: (username: admin password: admin ): https://id-data-client.herokuapp.com/
 
