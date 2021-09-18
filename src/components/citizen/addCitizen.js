@@ -12,13 +12,13 @@ import styles from './citizen.module.css';
 import Requirements from '../requirements/requirements';
 import NoAccount from '../requirements/noAccount';
 
-// const url = 'http://localhost:3000/';
-// const testnet = 'https://ropsten.etherscan.io/';
+const url = 'http://localhost:3000/';
+const testnet = 'https://ropsten.etherscan.io/';
 
 // dynamic-named values to enable running in different environments
 
-const url = process.env.API_BASE_URL;
-const testnet = process.env.TEST_NET;
+// const url = process.env.API_BASE_URL;
+// const testnet = process.env.TEST_NET;
 
 const loginItems = [
      {
