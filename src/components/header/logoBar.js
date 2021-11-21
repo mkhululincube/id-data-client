@@ -4,7 +4,7 @@ import { Col, Row } from 'antd';
 import { HomeOutlined, UsergroupAddOutlined } from '@ant-design/icons';
 import globalstyle from '../../style.module.css';
 import styles from './header.module.css';
-import logo from '../../assets/img/swlogo.svg'
+import logo from '../../assets/img/cash.svg'
 
 const LogoBar = () => {
 return (

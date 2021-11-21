@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import {useForm} from 'react-hook-form';
 import { Row, Col, Form, Button } from 'antd';
 import styles from './forms.module.css';
-import logo from '../../assets/img/logo2.png';
+import logo from '../../assets/img/logo.jpg';
 import HeaderStatus  from '../../containers/settings/headerStatus';
 import { AdminLoggedIn } from '../../actions/actions';
 
